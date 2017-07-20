@@ -1,0 +1,12 @@
+#greeting {
+  padding-bottom: 20px;
+}
+
+#color_info {
+  margin: 0 auto;
+  float: none;
+  padding-top: 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}

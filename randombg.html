@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bgstyle.css">
+
+  <title>Random Background Color</title>
+</head>
+<body>
+<div id="greeting" class="text-center">
+  <h1>Random Background Color</h1>
+  <p>Use the button below to randomize the background color of this page.</p>
+  <button type="button" class="btn btn-outline-primary" onclick="makeRandomColor()">Randomize</button>
+</div>
+
+<div id="color_info" class="col-md-4">
+  <div class="form-group row">
+    <label for="example-text-input" class="col-4 col-form-label"><b>hex:</b></label>
+    <div>
+      <input class="form-control" type="text" placeholder="Hex" id="hex_color">
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src ="randombg.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+</html>
